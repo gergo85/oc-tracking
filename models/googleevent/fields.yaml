@@ -1,0 +1,73 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: indikator.tracking::lang.form.name
+        comment: indikator.tracking::lang.form.name_comment
+        required: true
+        span: auto
+
+    action:
+        label: indikator.tracking::lang.form.action
+        comment: indikator.tracking::lang.form.action_comment
+        required: true
+        span: auto
+
+    auto_category:
+        label: indikator.tracking::lang.form.auto_category
+        type: checkbox
+        default: true
+        span: auto
+
+    auto_label:
+        label: indikator.tracking::lang.form.auto_label
+        type: checkbox
+        default: true
+        span: auto
+
+    category:
+        label: indikator.tracking::lang.form.category
+        comment: indikator.tracking::lang.form.category_comment
+        span: auto
+        trigger:
+            action: show
+            field: auto_category
+            condition: unchecked
+
+    label:
+        label: indikator.tracking::lang.form.label
+        comment: indikator.tracking::lang.form.label_comment
+        span: auto
+        trigger:
+            action: show
+            field: auto_label
+            condition: unchecked
+
+    position:
+        label: ''
+        type: section
+        comment: indikator.tracking::lang.form.help
+
+secondaryTabs:
+    fields:
+
+        value:
+            label: indikator.tracking::lang.form.value
+            comment: indikator.tracking::lang.form.value_comment
+
+        common:
+            label: indikator.tracking::lang.form.common
+            type: textarea
+            size: tiny
+
+        status:
+            label: indikator.tracking::lang.form.status
+            required: true
+            type: radio
+            options:
+                1: indikator.tracking::lang.form.status_active
+                2: indikator.tracking::lang.form.status_inactive
+            default: 1

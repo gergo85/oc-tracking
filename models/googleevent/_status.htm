@@ -1,0 +1,13 @@
+<?php
+
+$text = [
+    1 => 'active',
+    2 => 'inactive'
+];
+
+$class = [
+    1 => 'text-info',
+    2 => 'text-danger'
+];
+
+echo '<span class="oc-icon-circle '.$class[$record->status].'">'.Lang::get('indikator.tracking::lang.form.status_'.$text[$record->status]).'</span>';

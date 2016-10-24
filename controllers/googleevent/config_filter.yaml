@@ -1,0 +1,25 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    status_active:
+        label: indikator.tracking::lang.form.status_active
+        type: checkbox
+        conditions: status = 1
+
+    status_inactive:
+        label: indikator.tracking::lang.form.status_inactive
+        type: checkbox
+        conditions: status = 2
+
+    created_date:
+        label: indikator.tracking::lang.list.created_at
+        type: daterange
+        conditions: created_at >= ':after' AND created_at <= ':before'
+
+    updated_date:
+        label: indikator.tracking::lang.list.updated_at
+        type: daterange
+        conditions: updated_at >= ':after' AND updated_at <= ':before'

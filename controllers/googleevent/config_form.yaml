@@ -1,0 +1,17 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: indikator.tracking::lang.title.tracking
+form: ~/plugins/indikator/tracking/models/googleevent/fields.yaml
+
+modelClass: Indikator\Tracking\Models\GoogleEvent
+defaultRedirect: indikator/tracking/googleevent
+
+create:
+    redirect: indikator/tracking/googleevent/update/:id
+    redirectClose: indikator/tracking/googleevent
+
+update:
+    redirect: indikator/tracking/googleevent/update/:id
+    redirectClose: indikator/tracking/googleevent

@@ -1,0 +1,25 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+title: indikator.tracking::lang.menu.googleevent
+list: ~/plugins/indikator/tracking/models/googleevent/columns.yaml
+
+modelClass: Indikator\Tracking\Models\GoogleEvent
+recordUrl: indikator/tracking/googleevent/update/:id
+noRecordsMessage: backend::lang.list.no_records
+
+recordsPerPage: 15
+showCheckboxes: true
+showSetup: true
+
+defaultSort:
+    column: name
+    direction: asc
+
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: backend::lang.list.search_prompt
+
+filter: config_filter.yaml

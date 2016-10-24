@@ -1,0 +1,51 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    name:
+        label: indikator.tracking::lang.form.name
+        searchable: true
+
+    category:
+        label: indikator.tracking::lang.form.category
+        searchable: true
+
+    action:
+        label: indikator.tracking::lang.form.action
+        searchable: true
+
+    label:
+        label: indikator.tracking::lang.form.label
+        searchable: true
+
+    value:
+        label: indikator.tracking::lang.form.value
+        searchable: true
+        invisible: true
+
+    common:
+        label: indikator.tracking::lang.form.common
+        searchable: true
+        invisible: true
+
+    status:
+        label: indikator.tracking::lang.form.status
+        sortable: false
+        type: partial
+        path: ~/plugins/indikator/tracking/models/googleevent/_status.htm
+
+    created_at:
+        label: indikator.tracking::lang.list.created_at
+        searchable: true
+        invisible: true
+        type: datetime
+        format: Y-m-d G:i
+
+    updated_at:
+        label: indikator.tracking::lang.list.updated_at
+        searchable: true
+        invisible: true
+        type: datetime
+        format: Y-m-d G:i
