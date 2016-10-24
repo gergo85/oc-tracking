@@ -18,6 +18,7 @@ Name | Description
 
 ## Example
 Event name: _interest-contact_
+
 HTML code: `<a href="{{ 'contact'|page }}" data-google-event-name="interest-contact">Contact</a>`
 
 ## Available languages
