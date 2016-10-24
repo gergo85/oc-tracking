@@ -53,8 +53,8 @@ return [
         'remove' => 'Az eltávolítás sikeresen megtörtént.'
     ],
     'component' => [
-        'google_name' => 'Google esemény kód',
-        'google_description' => 'Google Analytics Esemény Követő'
+        'google_name' => 'Google Event',
+        'google_description' => 'Google Analytics Event követő'
     ],
     'permission' => [
         'google_event' => 'Google követő kódok kezelése'

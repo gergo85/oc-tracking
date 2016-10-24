@@ -53,7 +53,7 @@ return [
         'remove' => 'Successfully removed those items.'
     ],
     'component' => [
-        'google_name' => 'Google event code',
+        'google_name' => 'Google Event',
         'google_description' => 'Google Analytics Event Tracking'
     ],
     'permission' => [
