@@ -16,6 +16,7 @@ return [
         'tracking' => 'Új követés'
     ],
     'form' => [
+        'id' => 'ID',
         'name' => 'Név',
         'name_comment' => 'A név csak számokat, latin betűket és a következő szimbólumokat tartalmazhatja: _-',
         'category' => 'Kategória',

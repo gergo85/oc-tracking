@@ -16,6 +16,7 @@ return [
         'tracking' => 'New tracking'
     ],
     'form' => [
+        'id' => 'ID',
         'name' => 'Name',
         'name_comment' => 'Name can contain only digits, Latin letters and the following symbols: _-',
         'category' => 'Category',

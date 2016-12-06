@@ -4,6 +4,10 @@
 
 columns:
 
+    id:
+        label: indikator.tracking::lang.form.id
+        invisible: true
+
     name:
         label: indikator.tracking::lang.form.name
         searchable: true
@@ -41,11 +45,9 @@ columns:
         searchable: true
         invisible: true
         type: datetime
-        format: Y-m-d G:i
 
     updated_at:
         label: indikator.tracking::lang.list.updated_at
         searchable: true
         invisible: true
         type: datetime
-        format: Y-m-d G:i
