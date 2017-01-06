@@ -1,5 +1,5 @@
 # Tracking Visitors plugin
-For security reasons the build-in editor doesn't allow the `onclick` HTML attribute. So you want to use the [Google Analytics Event Tracking](https://developers.google.com/analytics/devguides/collection/analyticsjs/events) service, this plugin helps to you. 
+For security reasons the build-in editor doesn't allow the `onclick` HTML attribute. So you want to use the [Google Analytics Event Tracking](https://developers.google.com/analytics/devguides/collection/analyticsjs/events) service, this plugin helps to you.
 
 ## Supported services
 * Google Analytics: Event Tracking
@@ -7,8 +7,9 @@ For security reasons the build-in editor doesn't allow the `onclick` HTML attrib
 ## Setup the tracking
 1. Add new events on the Back-end > Settings > Tracking Visitors page.
 2. Insert the Google Analytics code to the head of website.
-3. Add the Google event code component to the current layout or page.
-4. Extend the links or buttons with the special attributes.
+3. Insert the jQuery JavaScript library to the website.
+4. Add the Google event code component to the current layout or page.
+5. Extend the links or buttons with the special attributes.
 
 ## Unique attributes
 Name | Description
