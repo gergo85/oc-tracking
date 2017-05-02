@@ -24,6 +24,7 @@ class Plugin extends PluginBase
                 'label'       => 'indikator.tracking::lang.plugin.name',
                 'url'         => Backend::url('indikator/tracking/googleevent'),
                 'icon'        => 'icon-street-view',
+                'iconSvg'     => 'plugins/indikator/tracking/assets/images/tracking-icon.svg',
                 'permissions' => ['indikator.tracking.*'],
                 'order'       => 500,
                 'sideMenu' => [
