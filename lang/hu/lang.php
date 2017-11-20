@@ -45,6 +45,8 @@ return [
         'deactivate' => 'Deaktiválás',
         'active' => 'Aktív',
         'inactive' => 'Inaktív',
+        'previous' => 'Előző',
+        'next' => 'Következő',
         'return' => 'Vissza'
     ],
     'flash' => [

@@ -45,6 +45,8 @@ return [
         'deactivate' => 'Deactivate',
         'active' => 'Active',
         'inactive' => 'Inactive',
+        'previous' => 'Previous',
+        'next' => 'Next',
         'return' => 'Return'
     ],
     'flash' => [
