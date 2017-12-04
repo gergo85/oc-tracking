@@ -44,7 +44,8 @@ class Plugin extends PluginBase
         return [
             'indikator.tracking.google_event' => [
                 'tab'   => 'indikator.tracking::lang.plugin.name',
-                'label' => 'indikator.tracking::lang.permission.google_event'
+                'label' => 'indikator.tracking::lang.permission.google_event',
+                'roles' => ['publisher']
             ]
         ];
     }
