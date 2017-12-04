@@ -17,7 +17,7 @@ class GoogleEvent extends Model
 
     public function afterSave()
     {
-        $sql  = $this::where('status', 1)->get();
+        $sql  = $this::where('status', 1)->get()->all();
         $json = '';
 
         foreach ($sql as $item) {
