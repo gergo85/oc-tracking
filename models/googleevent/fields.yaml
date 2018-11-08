@@ -8,6 +8,8 @@ fields:
         label: indikator.tracking::lang.form.name
         comment: indikator.tracking::lang.form.name_comment
         required: true
+        attributes:
+           autofocus: ''
         span: auto
 
     action:
