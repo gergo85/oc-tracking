@@ -26,13 +26,15 @@ class Plugin extends PluginBase
                 'icon'        => 'icon-street-view',
                 'iconSvg'     => 'plugins/indikator/tracking/assets/images/tracking-icon.svg',
                 'permissions' => ['indikator.tracking.*'],
-                'order'       => 500,
+                'order'       => 380,
+
                 'sideMenu' => [
                     'googleevent' => [
                         'label'       => 'indikator.tracking::lang.menu.googleevent',
                         'url'         => Backend::url('indikator/tracking/googleevent'),
                         'icon'        => 'icon-google',
-                        'permissions' => ['indikator.tracking.google_event']
+                        'permissions' => ['indikator.tracking.google_event'],
+                        'order'       => 100
                     ]
                 ]
             ]
