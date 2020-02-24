@@ -37,11 +37,11 @@ class GoogleEvent extends Controller
         return $this->listRefresh();
     }
 
-    public function onDeactivate()
+    public function onInactivate()
     {
         if ($this->isSelected()) {
             $this->changeStatus(post('checked'), 1, 2);
-            $this->setMessage('deactivate');
+            $this->setMessage('inactivate');
         }
 
         return $this->listRefresh();

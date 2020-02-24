@@ -42,7 +42,7 @@ return [
     ],
     'button' => [
         'activate' => 'Aktiválás',
-        'deactivate' => 'Deaktiválás',
+        'inactivate' => 'Inaktiválás',
         'active' => 'Aktív',
         'inactive' => 'Inaktív',
         'previous' => 'Előző',
@@ -51,7 +51,7 @@ return [
     ],
     'flash' => [
         'activate' => 'Az aktiválás sikeresen megtörtént.',
-        'deactivate' => 'A deaktiválás sikeresen megtörtént.',
+        'inactivate' => 'Az inaktiválás sikeresen megtörtént.',
         'delete' => 'Valóban törölni akarja?',
         'remove' => 'Az eltávolítás sikeresen megtörtént.'
     ],

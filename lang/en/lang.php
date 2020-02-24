@@ -42,7 +42,7 @@ return [
     ],
     'button' => [
         'activate' => 'Activate',
-        'deactivate' => 'Deactivate',
+        'inactivate' => 'Inactivate',
         'active' => 'Active',
         'inactive' => 'Inactive',
         'previous' => 'Previous',
@@ -51,7 +51,7 @@ return [
     ],
     'flash' => [
         'activate' => 'Successfully activated those items.',
-        'deactivate' => 'Successfully deactivated those items.',
+        'inactivate' => 'Successfully inactivated those items.',
         'delete' => 'Do you really want to delete this items?',
         'remove' => 'Successfully removed those items.'
     ],

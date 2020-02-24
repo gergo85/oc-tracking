@@ -25,12 +25,12 @@
             onclick="$(this).data('request-data', {
                 checked: $('.control-list').listWidget('getChecked')
             })"
-            data-request="onDeactivate"
+            data-request="onInactivate"
             data-trigger-action="enable"
             data-trigger=".control-list input[type=checkbox]"
             data-trigger-condition="checked"
             data-stripe-load-indicator>
-            <?= e(trans('indikator.tracking::lang.button.deactivate')) ?>
+            <?= e(trans('indikator.tracking::lang.button.inactivate')) ?>
         </button>
     </div>
     <button
