@@ -25,6 +25,7 @@ HTML code: `<a href="{{ 'contact'|page }}" data-google-event-name="interest-cont
 ## Available languages
 * en - English
 * hu - Magyar
+* sl - Slovenščina
 
 ## Installation
 1. Go to the __Settings > Updates & Plugins__ page in the Backend.
