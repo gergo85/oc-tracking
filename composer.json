@@ -1,0 +1,11 @@
+{
+    "name": "indikator/tracking-plugin",
+    "type": "october-plugin",
+    "description": "This is a toolkit for tracking visitors interaction with the website using Google Analytics custom events.",
+    "homepage": "https://octobercms.com/plugin/indikator-tracking",
+    "keywords": ["october", "octobercms", "analytics"],
+    "license": "MIT",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
